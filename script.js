@@ -25,5 +25,9 @@ const about = `I'm ${firstName} a ${currentYear - birthYear} year old ${job}`;
 
 console.log(about)
 
+console.log(`This is a multiline
+comment
+lol`)
+
 
 
