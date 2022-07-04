@@ -90,3 +90,69 @@
 
 // console.log("1" + 1) // 11
 
+//Falsey values = '', undefined, 0, Nan, null
+
+// console.log(Number(1.23))
+// console.log(parseFloat(1.23))
+
+// Prompt
+// const thisNumber = Number(prompt('Enter your age number'));
+
+// console.log(thisNumber)
+
+// =====================================================================
+
+// Coding Challenge #3
+// There are two gymnastics teams, Dolphins and Koalas. They compete against each
+// other 3 times. The winner with the highest average score wins a trophy!
+// Your tasks:
+// 1. Calculate the average score for each team, using the test data below
+// 2. Compare the team's average scores to determine the winner of the competition,
+// and print it to the console. Don't forget that there can be a draw, so test for that
+// as well (draw means they have the same average score)
+// 3. Bonus 1: Include a requirement for a minimum score of 100. With this rule, a
+// team only wins if it has a higher score than the other team, and the same time a
+// score of at least 100 points. Hint: Use a logical operator to test for minimum
+// score, as well as multiple else-if blocks 😉
+// 4. Bonus 2: Minimum score also applies to a draw! So a draw only happens when
+// both teams have the same score and both have a score greater or equal 100
+// points. Otherwise, no team wins the trophy
+// Test data:
+// § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+// § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+// § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+// GOOD LUCK 😀
+
+// const dolphins1stScore = 90;
+// const dolphins2ndScore = 108;
+// const dolphins3rdScore = 100;
+
+// const koalas1stScore = 107;
+// const koalas2ndScore = 91;
+// const koalas3rdScore = 100;
+
+// const minimumScore = 100;
+// const dolphinsAverageScore =
+//   (dolphins1stScore + dolphins2ndScore + dolphins3rdScore) / 3;
+// const koalasAverageScore =
+//   (koalas1stScore + koalas2ndScore + koalas3rdScore) / 3;
+
+// console.log(dolphinsAverageScore, koalasAverageScore);
+
+// let isMinimum = false;
+// if (
+//   dolphinsAverageScore >= minimumScore ||
+//   koalasAverageScore >= minimumScore
+// ) {
+//   isMinimum = true;
+// }
+
+// if (dolphinsAverageScore === koalasAverageScore && isMinimum) {
+//   console.log("It was a draw");
+// } else if (dolphinsAverageScore > koalasAverageScore && isMinimum) {
+//   console.log("The dolphins won");
+// } else if (koalasAverageScore > dolphins1stScore && isMinimum) {
+//   console.log("The koalas won");
+// } else {
+//   console.log("No team won");
+// }
