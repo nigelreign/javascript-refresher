@@ -213,21 +213,46 @@
 // Apply this to the team's average scores 😉
 // GOOD LUCK 😀
 
-const calcAverage = (score1, score2, score3) => score1 + score2 + score3 / 3;
+// const calcAverage = (score1, score2, score3) => score1 + score2 + score3 / 3;
 
-const dolphinsAvg = calcAverage(85, 54, 41);
-const koalassAvg = calcAverage(23, 34, 27);
+// const dolphinsAvg = calcAverage(85, 54, 41);
+// const koalassAvg = calcAverage(23, 34, 27);
 
-console.log(dolphinsAvg, koalassAvg);
+// console.log(dolphinsAvg, koalassAvg);
 
-const checkWinner = (dolphinsAvg1, koalasAvg2) => {
-  if (dolphinsAvg1 >= 2 * koalasAvg2) {
-    console.log(`Dolphins win (${dolphinsAvg} vs ${koalasAvg2})`);
-  } else if (koalasAvg2 >= 2 * dolphinsAvg1) {
-    console.log(`Koalas win (${koalasAvg2} vs ${dolphinsAvg1})`);
-  } else {
-    console.log("No team won");
-  }
-};
+// const checkWinner = (dolphinsAvg1, koalasAvg2) => {
+//   if (dolphinsAvg1 >= 2 * koalasAvg2) {
+//     console.log(`Dolphins win (${dolphinsAvg} vs ${koalasAvg2})`);
+//   } else if (koalasAvg2 >= 2 * dolphinsAvg1) {
+//     console.log(`Koalas win (${koalasAvg2} vs ${dolphinsAvg1})`);
+//   } else {
+//     console.log("No team won");
+//   }
+// };
 
-checkWinner(dolphinsAvg, koalassAvg)
+// checkWinner(dolphinsAvg, koalassAvg)
+
+
+// Coding Challenge #1
+// Given an array of forecasted maximum temperatures, the thermometer displays a
+// string with the given temperatures. Example: [17, 21, 23] will print "... 17oC in 1
+// days ... 21oC in 2 days ... 23oC in 3 days ..."
+// Your tasks:
+// 1. Create a function 'printForecast' which takes in an array 'arr' and logs a
+// string like the above to the console. Try it with both test datasets.
+// 2. Use the problem-solving framework: Understand the problem and break it up
+// into sub-problems!
+// Test data:
+// § Data 1: [17, 21, 23]
+// § Data 2: [12, 5, -5, 0, 4]
+// GOOD LUCK 😀
+
+// const printForecast = (arr) => {
+//   console.log(`... ${arr[0]}oC in 1days ... ${arr[1]}oC in 2 days ... ${arr[2]}oC in 3 days ...`);
+// }
+
+// const dataSet = [17, 21, 23];
+// printForecast(dataSet)
+
+// const dataSet2 = [12, 5, -5, 0, 4];
+// printForecast(dataSet2)
